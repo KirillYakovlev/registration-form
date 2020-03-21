@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Форма регистрации</title>
+    </head>
+    <body>
+
+        <div class="auth">
+            <h1 class="auth__title">Регистрация в даркнете</h1>
+
+            <form action="/" method="post">
+                <div class="form__group">
+                    <input class="input" type="text" name="name" placeholder="Ваше полное имя">
+                </div>
+
+                <div class="form__group">
+                    <input class="input" type="email" name="email" placeholder="Ваш e-mail">
+                </div>
+
+                <div class="form__group">
+                    <input class="input" type="tel" name="phone" placeholder="Ваш номер телефона">
+                </div>
+
+                <div class="form__group">
+                    <input class="input" type="password" name="password" placeholder="Придумайте пароль">
+                </div>
+
+                <div class="form__group">
+                    <input class="input" type="password" name="password__confirm" placeholder="Подтвердите пароль">
+                </div>
+
+                <div class="form__group">
+                    <select class="select" name="city">
+                        <option>Киев</option>
+                        <option>Винница</option>
+                        <option>Харьков</option>
+                        <option>Кривой Рог</option>
+                        <option>Львов</option>
+                        <option>Одесса</option>
+                        <option>Чернигов</option>
+                    </select>
+                </div>
+
+                <div class="form__group">
+                    <input type="checkbox" name="rules" id="rules">
+                    <label class="checkbox" for="rules">Принимаю условия пользования</label>
+                </div>
+
+                <button class="btn" type="submit">Регистрация</button>
+
+            </form>
+        </div> <!-- /Auth -->
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
